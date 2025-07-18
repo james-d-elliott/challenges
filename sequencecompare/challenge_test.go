@@ -1,17 +1,12 @@
 package sequencecompare_test
 
 import (
-	"fmt"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
 
 	"github.com/james-d-elliott/challenges/sequencecompare"
 )
-
-func Test(t *testing.T) {
-	fmt.Println(sequencecompare.PrintSlice(sequencecompare.RandomSortItems(missingTwoLargeOrdered)))
-}
 
 func TestFindOneMissingArrayValues(t *testing.T) {
 	t.Run("Ordered", func(t *testing.T) {
